@@ -19,10 +19,10 @@
           <div class="hero-buttons">
 
             {% if site.data.global.window != '' %}
-              <a href="https://twitter.com/{{ site.data.global.twitter }}"><button class="btn btn-default btn-lg"><i class="fa fa-window fa-lg"></i>Window</button></a>
+              <a href="https://twitter.com/{{ site.data.global.windows }}"><button class="btn btn-default btn-lg"><i class="fa fa-windows fa-lg"></i>Windows</button></a>
             {% endif %}
             {% if site.data.global.android != '' %}
-              <a href="https://github.com/{{ site.data.global.github }}"><button class="btn btn-default btn-lg"><i class="fa fa-android fa-lg"></i>Android</button></a>
+              <a href="https://192.168.1.164:8082/"><button class="btn btn-default btn-lg"><i class="fa fa-chrome fa-lg"></i>WEB</button></a>
             {% endif %}
             {% if site.data.global.macintosh != '' %}
               <a href="https://{{ site.data.global.medium }}"><button class="btn btn-default btn-lg"><i class="fa fa-apple fa-lg"></i>Macintosh</button></a>
@@ -31,7 +31,7 @@
           </div>
 
           {% if site.data.global.comment_description != '' %}
-          <p class="text-center">{{site.data.global.comment_description}}</p>
+          <p class="text-center" style="font-family: 'calibri'">{{site.data.global.comment_description}}</p>
           {% endif %}
 
         </div>

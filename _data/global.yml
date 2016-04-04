@@ -1,12 +1,14 @@
 # Site Settings
 title: "TeamOn"
-basic_description: "It's a fancy and advanced brand new commnunity service. <br /> TeamOn supports various features such as voice chat, screen capture, screen share and so on... <br /> You can download a program through below link."
-comment_description: "Do you want to ask something to us? You can leave a comment without log-in process like this. <br /> 1. Input your message in text area and click another small one just below. <br /> 2. When a cursor is activated, check \"I'd rather to post as a guest\".<br /> 3. Input your name and E-mail address and click submit button."
+#basic_description: "It's a fancy and advanced brand new commnunity service. <br /> TeamOn supports various features such as voice chat, screen capture, screen share and so on... <br /> You can download a program through below link."
+basic_description: "TeamOn은 텍스트/비디오 채팅, 파일/스크린 공유 등에 최적화된 커뮤니티 서비스 입니다. <br /> 아래 링크를 눌러 프로그램을 다운로드 한 후 이용해보세요."
+#comment_description: "Do you want to ask something to us? You can leave a comment without log-in process like this. <br /> 1. Input your message in text area and click another small one just below. <br /> 2. When a cursor is activated, check \"I'd rather to post as a guest\".<br /> 3. Input your name and E-mail address and click submit button."
+comment_description: "질문 및 문의 사항이 있을 경우 아래에 메시지를 남겨주세요. <br /><br /> * 로그인 과정 없이 코멘트 남기는 방법<br /> 1. 메시지 입력 후 \"or sign up with Disqus\" 아래 텍스트 상자 클릭 <br /> 2. \"I'd rather to post as a guest\" 체크 박스 클릭 <br /> 3. 이름 및 이메일 주소 입력 후 전송 버튼 클릭"
 
 url: 'http://127.0.0.1:4000' # the base hostname & protocol for your site
-nav: "true"
+nav: "false"
 footer_text: '© 2016 Uangel Solution Development Team'
-window: 'window'
+window: 'windows'
 android: 'android'
 macintosh: 'macintosh'
 
