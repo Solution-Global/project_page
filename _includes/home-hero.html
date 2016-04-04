@@ -1,0 +1,67 @@
+<div class="container">
+
+  <div class="row">
+
+    <div class="col-md-12">
+
+      <div class="hero-container">
+
+        <div class="hero-content">
+
+          {% if site.data.global.title != '' %}
+          <h1 class="text-center">{{site.data.global.title}}</h1>
+          {% endif %}
+
+          {% if site.data.global.basic_description != '' %}
+          <p class="text-center">{{site.data.global.basic_description}}</p>
+          {% endif %}
+
+          <div class="hero-buttons">
+
+            {% if site.data.global.window != '' %}
+              <a href="https://twitter.com/{{ site.data.global.twitter }}"><button class="btn btn-default btn-lg"><i class="fa fa-window fa-lg"></i>Window</button></a>
+            {% endif %}
+            {% if site.data.global.android != '' %}
+              <a href="https://github.com/{{ site.data.global.github }}"><button class="btn btn-default btn-lg"><i class="fa fa-android fa-lg"></i>Android</button></a>
+            {% endif %}
+            {% if site.data.global.macintosh != '' %}
+              <a href="https://{{ site.data.global.medium }}"><button class="btn btn-default btn-lg"><i class="fa fa-apple fa-lg"></i>Macintosh</button></a>
+            {% endif %}
+
+          </div>
+
+          {% if site.data.global.comment_description != '' %}
+          <p class="text-center">{{site.data.global.comment_description}}</p>
+          {% endif %}
+          
+        </div>
+
+      </div>
+
+      <div id="disqus_thread" style="width:700px; margin:0 auto;"></div>
+      <script>
+      /**
+      * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+      * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+      */
+      /*
+      var disqus_config = function () {
+      this.page.url = PAGE_URL; // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+      };
+      */
+      (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+
+      s.src = '//teamonlandingpage.disqus.com/embed.js';
+
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+      })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+    </div>
+
+  </div>
+
+</div>
