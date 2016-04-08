@@ -15,4 +15,4 @@ macintosh: 'macintosh'
 # Admin Settings
 admin_name: 'TeamOn'
 admin_email: 'dev1.solution@uangel.com'
-google_analytics: "" # Update with your own tracking ID
+# google_analytics: "" # Update with your own tracking ID
