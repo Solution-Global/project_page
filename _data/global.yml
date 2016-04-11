@@ -5,7 +5,7 @@ basic_description: "TeamOn은 텍스트/비디오 채팅, 파일/스크린 공�
 #comment_description: "Do you want to ask something to us? You can leave a comment without log-in process like this. <br /> 1. Input your message in text area and click another small one just below. <br /> 2. When a cursor is activated, check \"I'd rather to post as a guest\".<br /> 3. Input your name and E-mail address and click submit button."
 comment_description: ""
 
-url: 'http://127.0.0.1:4000' # the base hostname & protocol for your site
+url: 'http://solution-global.github.io/project_page' # the base hostname & protocol for your site
 nav: "false"
 footer_text: '© 2016 Uangel Solution Development Team'
 window: 'windows'

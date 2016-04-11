@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>TeamOn</title>
- <link href="http://127.0.0.1:4000/atom.xml" rel="self"/>
- <link href="http://127.0.0.1:4000/"/>
- <updated>2016-04-08T18:21:49+09:00</updated>
- <id>http://127.0.0.1:4000</id>
+ <link href="http://solution-global.github.io/project_page/atom.xml" rel="self"/>
+ <link href="http://solution-global.github.io/project_page/"/>
+ <updated>2016-04-11T17:23:12+09:00</updated>
+ <id>http://solution-global.github.io/project_page</id>
  <author>
    <name>TeamOn</name>
    <email>dev1.solution@uangel.com</email>
